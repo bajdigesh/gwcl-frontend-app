@@ -1,0 +1,25 @@
+@import 'react-toastify/dist/ReactToastify.css';
+
+/** Used to define container behavior: width, position: fixed etc... **/
+.Toastify__toast-container {
+  padding: 0;
+}
+
+/** Classes for the displayed toast **/
+.Toastify__toast {
+  min-height: initial;
+  padding: 0;
+}
+
+.Toastify__toast-body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+/** Classes for the close button. Better use your own closeButton **/
+.Toastify__close-button {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}

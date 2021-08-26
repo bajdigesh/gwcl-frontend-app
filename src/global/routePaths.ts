@@ -1,0 +1,82 @@
+export const routePath = {
+  auth: {
+    login: '/auth',
+    createPassword: '/auth/create-password',
+    forgotPassword: '/auth/forgot-password',
+    resetPassword: '/auth/reset-password',
+    registration: '/auth/registration',
+    emailVerification: '/auth/email-verification',
+  },
+  billing: {
+    base: '/billing',
+    summary: '/billing/summary',
+    generatedBills: '/billing/generated-bills',
+    billingException: '/billing/billing-exception',
+    tariffs: '/billing/tariffs',
+    unBilledCustomers: '/billing/unbilled-customers',
+    categoryManagement: '/billing/category-management',
+    reports: '/billing/reports',
+    generateBill: '/billing/generate-bill',
+    workingMeters: '/billing/working-meters',
+    createReport: '/billing/reports/create-report',
+  },
+  customers: {
+    base: '/customers',
+    customerList: '/customers/list',
+    customerDetail: {
+      base: '/customers/list/:id',
+      all: '/customers/list/:id/all',
+      billing: '/customers/list/:id/billing',
+      payments: '/customers/list/:id/payments',
+      adjustments: '/customers/list/:id/adjustments',
+      customerStatements: '/customers/list/:id/customer-statements',
+      complaints: '/customers/list/:id/complaints',
+      accountDetails: '/customers/list/:id/account-details',
+    },
+    customerStatements: {
+      base: '/customers/list/:id/customer-statements',
+      detail: '/customers/list/:id/customer-statements/detail',
+    },
+    newServiceRequest: '/customers/new-service-request',
+    newConnectionRequest: '/customers/new-connection-request',
+    clusterCustomers: {
+      base: '/customers/cluster-customers',
+      clusterRegionDetail: '/customers/cluster-customers/region/:id',
+      clusterDistrictDetail: '/customers/cluster-customers/district/:id',
+      clusterRouteDetail: '/customers/cluster-customers/route/:id',
+    },
+  },
+  dashboard: {
+    base: '/',
+  },
+  devices: {
+    base: '/devices',
+    concentrators: '/devices/concentrators',
+    concentratorDetail: '/devices/concentrators/:id',
+    meters: '/devices/meters',
+    meterDetail: '/devices/meters/:id',
+    phones: '/devices/phones',
+    phoneDetail: '/devices/phones/:id',
+  },
+  home: {
+    base: '/home',
+  },
+  payments: {
+    base: '/payments',
+    summary: '/payments/summary',
+    receivedPayments: '/payments/received-payments',
+    paymentSourceManagement: '/payments/payment-source-management',
+    debtManagement: '/payments/debt-management',
+    reports: '/payments/reports',
+  },
+  users: {
+    base: '/users',
+    userDetails: '/users/detail/:id',
+    activeUsers: '/users/active',
+    inactiveUsers: '/users/in-active',
+    technicians: '/users/technicians',
+    technicianDetails: '/users/technicians/:id',
+  },
+};
+
+export default routePath;

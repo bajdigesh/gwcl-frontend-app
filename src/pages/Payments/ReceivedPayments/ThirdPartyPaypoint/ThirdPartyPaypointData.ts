@@ -1,0 +1,78 @@
+const ThirdPartyPaypointData = {
+  payload: [
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Cash',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Mobile Money',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Cash',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Mobile Money',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Cash',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+    {
+      name: 'John Doe',
+      account_number: '010104174161',
+      receipt_id: '9281719283',
+      vendor_name: 'Vendor Name',
+      amount_paid: 20,
+      vendor_closing_balance: 70,
+      method: 'Mobile Money',
+      payment_date: 'Sep 21, 2020 02:38 PM',
+    },
+  ],
+  meta_data: [
+    {
+      pagination: {
+        total: 7,
+        per_page: 15,
+        last_page: 1,
+        current_page: 1,
+        from: 1,
+        to: 7,
+      },
+    },
+  ],
+};
+
+export default ThirdPartyPaypointData;
